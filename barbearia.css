@@ -1,0 +1,57 @@
+.titulo-principal{
+    padding-left: 20px;
+}
+
+
+#banner {
+    width: 100%;
+ 
+}
+
+.principal{
+    background-color: beige;
+    padding: 30px;
+
+}
+
+.sobre{
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+p{
+    text-align: center;
+    
+}
+#missão{
+    font-size: 20px;
+}
+
+em strong{
+    color: #ff0000;
+}
+
+.beneficios{
+    background-color: #FFFFFF;
+   padding: 20px;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagem-beneficios{
+    width: 50% ;
+}
