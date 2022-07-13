@@ -117,3 +117,15 @@ tag <.header></>
 
 # barbearia-alura
 # barbearia-alura
+# barbearia-alura
+
+
+pagina 2: posicionamento, listas e navegação.
+
+pagina de produtos da barbearia:
+
+1- montar estrutura do nosso arquivo;
+2- iniciar o nosso conteúdo;
+3- linguaguem css e html;
+
+
