@@ -1,0 +1,257 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: gray;
+    padding: auto 0;
+}
+
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 0 0 0 0 15px;
+}
+
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color:darkgoldenrod;
+
+}
+.produtos li:active{
+    border-color:crimson;
+
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descrição{
+    font-size: 18px;
+}
+
+.preço-produto{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background:url("C:/Users/aninh/Desktop/programação/bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright{
+    color: white;
+    font-size: 13px;
+    margin-top:20px;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px ;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:red;
+    transform: scale(1.2);
+}
+
+table {
+    display:inline-block;
+    position: relative;
+    margin: 20px 0 40px;
+    margin-left: 180px;
+}
+
+
+thead{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-weight: bold;
+
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+
+
+/*css - pagina barbearia*/
+
+.banner {
+    width: 100% ;
+}
+
+.sobre{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    margin: 0 0 1em ;
+    clear: left;
+}
+
+/*paragrafos do h2*/
+
+.principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+    background: linear-gradient(white, gray)
+}
+
+.mapacont{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;            
+
+}
+
+.beneficios{
+    padding: 3em 0 ;
+    background-color: gray ;
+}
+
+.conteudobenf{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listabenf{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "★"
+}
+
+.imagem-beneficios{
+    width: 60%;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
